@@ -111,7 +111,7 @@ Gravity Fall proposes an alternative: **store energy as height**. Unlike chemica
 
 ```
 /cad/                              → FreeCAD parametric models (.FCStd)
-  ├── frame_structure.FCStd        → Main wooden frame
+  ├── frame_structure.FCStd       → Main wooden frame
   ├── large_mounting_disc.FCStd    → Large disc for sprocket mounting
   ├── small_mounting_disc.FCStd    → Small disc for motor coupling
   └── metal_bracket.FCStd          → Metal bracket for hub motor support
