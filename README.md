@@ -111,25 +111,25 @@ Gravity Fall proposes an alternative: **store energy as height**. Unlike chemica
 
 ```
 /cad/                              → FreeCAD parametric models (.FCStd)
-  ├── frame_structure.FCStd       → Main wooden frame
-  ├── large_mounting_disc.FCStd    → Large disc for sprocket mounting
-  ├── small_mounting_disc.FCStd    → Small disc for motor coupling
-  └── metal_bracket.FCStd          → Metal bracket for hub motor support
+  ├── (frame_structure.FCStd)       → Main wooden frame
+  ├── (large_mounting_disc.FCStd)    → Large disc for sprocket mounting
+  ├── (small_mounting_disc.FCStd)    → Small disc for motor coupling
+  └── (metal_bracket.FCStd)          → Metal bracket for hub motor support
 
 /images/                           → Prototype photos
-  ├── 01_full_prototype_front.jpeg → Complete structure, front view
-  ├── 02_prototype_with_mass.jpeg  → Structure with mass and descent mechanism
-  ├── 03_chain_drive_closeup.jpeg  → Chain drive and sprocket detail (top-down)
-  ├── 04_side_view_transmission.jpeg → Side view showing full transmission
-  ├── 05_testing_with_energy_monitor.jpeg → Testing session with energy monitor and LiFePO4 battery
-  ├── 06_electronics_mppt_dcdc.jpeg → MPPT controller and DC-DC converter wiring
-  └── 07_cnc_machined_discs.jpeg   → Custom CNC-machined mounting discs
+  ├── (01_full_prototype_front.jpeg) → Complete structure, front view
+  ├── (02_prototype_with_mass.jpeg)  → Structure with mass and descent mechanism
+  ├── (03_chain_drive_closeup.jpeg)  → Chain drive and sprocket detail (top-down)
+  ├── (04_side_view_transmission.jpeg) → Side view showing full transmission
+  ├── (05_testing_with_energy_monitor.jpeg) → Testing session with energy monitor and LiFePO4 battery
+  ├── (06_electronics_mppt_dcdc.jpeg) → MPPT controller and DC-DC converter wiring
+  └── (07_cnc_machined_discs.jpeg)   → Custom CNC-machined mounting discs
 
 /data/                             → Experimental data
-  └── experimental_results.xlsx    → All test measurements across three mass configurations
+  └── (experimental_results.xlsx)   → All test measurements across three mass configurations
 
 /docs/                             → Documentation
-  └── BUILD_GUIDE.md               → Step-by-step construction guide with BOM
+  └── (BUILD_GUIDE.md)              → Step-by-step construction guide with BOM
 ```
 
 ---
