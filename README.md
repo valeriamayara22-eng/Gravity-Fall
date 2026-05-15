@@ -46,7 +46,7 @@ Gravity Fall proposes an alternative: **store energy as height**. Unlike chemica
 ┌─────────────┐
 │  Chain Drive      │
 │  Ratio: 1:9       │
-│  chains  │
+│  Chains  │
 └───────┬─────┘
         │ Mechanical torque
         ▼
@@ -75,6 +75,24 @@ Gravity Fall proposes an alternative: **store energy as height**. Unlike chemica
 │  charging         │
 └─────────────┘
 ```
+
+---
+
+## Prototype
+
+| | |
+|:---:|:---:|
+| ![Full prototype](01_full_prototype_front.jpeg) | ![Prototype with mass](02_prototype_with_mass.jpeg) |
+| *Complete structure — 1.80 m frame with chain drive and hub motor* | *Prototype with mass and descent mechanism* |
+| ![Chain drive detail](03_chain_drive_closeup.jpeg) | ![Side view](04_side_view_transmission.jpeg) |
+| *Chain drive and sprocket system — 1:9 gear ratio* | *Side view showing full transmission path* |
+| ![Testing](05_testing_with_energy_monitor.jpeg) | ![Electronics](06_electronics_mppt_dcdc.jpeg) |
+| *Testing session with energy monitor and Howell Energy 12V 7Ah LiFePO4 battery* | *MPPT charge controller and DC-DC buck converter* |
+
+| |
+|:---:|
+| ![CNC machined discs](07_cnc_machined_discs.jpeg) |
+| *Custom CNC-machined mounting discs — designed in FreeCAD* |
 
 ---
 
@@ -110,26 +128,17 @@ Gravity Fall proposes an alternative: **store energy as height**. Unlike chemica
 ## Design Files
 
 ```
-/cad/                              → FreeCAD parametric models (.FCStd)
-  ├── (frame_structure.FCStd)       → Main wooden frame
-  ├── (large_mounting_disc.FCStd)    → Large disc for sprocket mounting
-  ├── (small_mounting_disc.FCStd)    → Small disc for motor coupling
-  └── (metal_bracket.FCStd)          → Metal bracket for hub motor support
+FreeCAD parametric models (.FCStd):
+  ├── frame_structure.FCStd        → Main wooden frame
+  ├── large_mounting_disc.FCStd    → Large disc for sprocket mounting
+  ├── small_mounting_disc.FCStd    → Small disc for motor coupling
+  └── metal_bracket.FCStd          → Metal bracket for hub motor support
 
-/images/                           → Prototype photos
-  ├── (01_full_prototype_front.jpeg) → Complete structure, front view
-  ├── (02_prototype_with_mass.jpeg)  → Structure with mass and descent mechanism
-  ├── (03_chain_drive_closeup.jpeg)  → Chain drive and sprocket detail (top-down)
-  ├── (04_side_view_transmission.jpeg) → Side view showing full transmission
-  ├── (05_testing_with_energy_monitor.jpeg) → Testing session with energy monitor and LiFePO4 battery
-  ├── (06_electronics_mppt_dcdc.jpeg) → MPPT controller and DC-DC converter wiring
-  └── (07_cnc_machined_discs.jpeg)   → Custom CNC-machined mounting discs
+Experimental data:
+  └── experimental_results.xlsx    → All test measurements across three mass configurations
 
-/data/                             → Experimental data
-  └── (experimental_results.xlsx)   → All test measurements across three mass configurations
-
-/docs/                             → Documentation
-  └── (BUILD_GUIDE.md)              → Step-by-step construction guide with BOM
+Documentation:
+  └── BUILD_GUIDE.md               → Step-by-step construction guide with BOM
 ```
 
 ---
@@ -204,9 +213,9 @@ The concept builds on existing gravitational energy storage technologies:
 
 ## Team
 
-- Mayara Valeria Peláez Beltrán
+- Mayara Valeria Peláez Beltrán 
 - Leonardo Bojorquéz Berni
-- Sebastián Dussauge Vaca
+- Sebastián Dussauge Vaca 
 
 *Developed at Liceo Mexicano Japonés, A.C. — Mexico City, Mexico*
 
@@ -222,7 +231,7 @@ This project is open source under the [MIT License](LICENSE). You are free to re
 
 For questions, collaboration proposals, or if you've replicated this design in your community:
 
-📧 valerimayara22@gmail.com 
+📧 [valeriamayara22@gmail.com]
 
 ---
 
